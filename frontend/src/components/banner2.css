@@ -1,0 +1,50 @@
+.banner-container {
+    height:44rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:black;
+  }
+  /* #0F1035 */
+  
+  .left-content {
+    flex: 2; 
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 20px;
+  }
+  
+  .banner {
+    max-width: 140%;
+    height: auto; 
+    border-radius: 8px; 
+    filter: blur(1px); 
+  }
+
+  .left-content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    
+    word-spacing: 0.1em;
+    letter-spacing: 0.02em; 
+    color:#ffcb11;
+  }
+  
+  .left-content p {
+    margin-top: 12px;
+    font-size: 22px; 
+    color: rgb(148, 146, 143);
+    margin-bottom: 20px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.1rem;
+    
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+  

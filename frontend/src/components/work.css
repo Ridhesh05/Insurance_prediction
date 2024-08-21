@@ -1,0 +1,50 @@
+.work-container {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 32.7rem;
+  }
+  
+  .work-title {
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .work-features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .work-feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition */
+  }
+  
+  .work-feature:hover {
+    transform: translateY(-5px); /* Apply translateY on hover for elevation effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add box shadow on hover for elevation effect */
+  }
+  
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 16px;
+  }
+  

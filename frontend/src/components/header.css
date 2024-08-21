@@ -1,0 +1,49 @@
+.header {
+  background-color:black;
+  padding: 10px 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.4rem;
+  }
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.menu-item a {
+  color: rgb(252, 248, 248); /* Change the link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Make text bold */
+  font-family: Poppins, sans-serif; /* Change font */
+  font-size: 21px;
+  margin-right:5rem;
+  
+}
+
+.menu-item a:hover {
+  text-decoration: none; /* Add underline on hover if desired */
+}
+
+
+.logo {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  margin-right: 5px;
+}
+
+.logo-container {
+  margin-right: 50px; /* Adjust as needed */
+}
+
